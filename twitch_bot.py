@@ -24,11 +24,11 @@ class Bot(commands.Bot):
     def __init__(self):
         # Correct way to pass token and other parameters
         super().__init__(
-            token="cqfm18xate0w873nokfbwxq2g73oxi",  # Replace with your OAuth token
-            client_id="g9ftze662zty877n0xpxmc06fua1s7",  # Replace with your Client ID
-            nick="Choppi",  # Replace with your bot's username
-            prefix="!",  # Command prefix
-            initial_channels=["DoshRockey"]  # Replace with the channel name
+            token="",  # Replace with your OAuth token
+            client_id="",  # Replace with your Client ID
+            nick="",  # Replace with your bot's username
+            prefix="",  # Command prefix
+            initial_channels=[""]  # Replace with the channel name
         )
 
     async def event_ready(self):
